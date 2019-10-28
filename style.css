@@ -1,0 +1,77 @@
+.fondo {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 800px;
+}
+
+p {
+  color: #5e5e5e;
+  font-size: 20px;
+}
+p i {
+  color: #27dd61;
+}
+
+.box-img {
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+}
+.box-img img {
+  border-radius: 10px 10px 0px 0px;
+  width: 340px;
+}
+
+.box-list {
+  border: 1px solid #c7c7c7;
+  height: 400px;
+  width: 400px;
+  background-color: #FFF;
+  position: absolute;
+  top: 16rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+}
+.box-list ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.box-list .stock {
+  font-size: 12px;
+  vertical-align: bottom;
+}
+.box-list .btn-mas {
+  float: right;
+}
+.box-list .btn-mas i {
+  color: #9c9c9c;
+}
+.box-list .btn-mas .fa-plus:hover {
+  color: #27dd61;
+}
+.box-list .btn-mas .fa-trash:hover {
+  color: red;
+}
+.box-list .name-fruta {
+  vertical-align: bottom;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+input[type=text].box-fruta {
+  border: none;
+  border-bottom: 2px solid orangered;
+  border-radius: 0px;
+  display: inline;
+}
+
+/*# sourceMappingURL=style.css.map */
